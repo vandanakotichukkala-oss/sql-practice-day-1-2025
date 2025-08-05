@@ -1,0 +1,22 @@
+create database vnsv
+
+create table students (
+
+
+
+CREATE TABLE daily_expenses (
+	[s_no] [int] NULL,
+	[list_of_expenses] [varchar](30) NULL,
+	[amout_spent] [int] NOT NULL
+) 
+
+
+combination of unique and notnull it doesn't allow duplicate values but not null values.
+
+The key which reference the primary key of another table.
+
+Constraints :- Primary key, Foreign key, Unique, Not null, Check
+
+types of relationaship DBMS :- 1. One-to-One (1:1) Relationship, 2. One-to-Many (1:N) Relationship, 3. Many-to-Many (N:M) Relationship, 
+
+ purpose of AUTO_INCREMENT :- It allows you to automatically generate unique values for a column when new rows are inserted into a table.

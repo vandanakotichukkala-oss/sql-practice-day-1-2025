@@ -13,13 +13,10 @@ parent_no (int) (10) notnull
 )
 
 
-CREATE TABLE e_commerce.
-) 
 
+primary key :- combination of unique and notnull it doesn't allow duplicate values but allow null values.
 
-combination of unique and notnull it doesn't allow duplicate values but not null values.
-
-The key which reference the primary key of another table.
+foreign key :- The key which refers the primary key of another table.
 
 Constraints :- Primary key, Foreign key, Unique, Not null, Check
 

@@ -1,13 +1,19 @@
 create database vnsv
 
-create table students (
+create schema e_commerce
 
 
+create table e_commerce.students (
+ roll.no (int) primary key,
+student_name (varchar) (30),
+class (varchar) (10),
+section (char) (15),
+father_name (varchar) (30),
+parent_no (int) (10) notnull
+)
 
-CREATE TABLE daily_expenses (
-	[s_no] [int] NULL,
-	[list_of_expenses] [varchar](30) NULL,
-	[amout_spent] [int] NOT NULL
+
+CREATE TABLE e_commerce.
 ) 
 
 
